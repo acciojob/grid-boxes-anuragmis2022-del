@@ -1,1 +1,95 @@
 /*  your css code here. If applicable */
+
+#grid{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:repeat(5,1fr);
+	border:none;
+	gap:2px;
+	width:700px;
+	height:500px;
+	
+}
+div{
+	background-color:green;
+}
+.one{
+	grid-column-start:1;
+	grid-column-end:5;
+	grid-row-start:1;
+	grid-row-end:2;
+	border:1px solid blue;
+	
+	
+}
+.two{
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:6;
+	border:1px solid blue;
+	
+}
+.three{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:2;
+	grid-row-end:3;
+	border:1px solid blue;
+}
+.four{
+	grid-column-start:3;
+	grid-column-end:5;
+	grid-row-start:2;
+	grid-row-end:3;
+	border:1px solid blue;
+	
+}
+.five{
+	grid-column-start:2;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+	border:1px solid blue;
+
+}
+.six{
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:4;
+	border:1px solid blue;
+	
+}
+.seven{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:4;
+	grid-row-end:5;
+	border:1px solid blue;
+	
+}
+.eight{
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:4;
+	grid-row-end:5;
+	border:1px solid blue;
+
+}
+.nine{
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:4;
+	grid-row-end:5;
+	border:1px solid blue;
+
+}
+.ten{
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-row-start:5;
+	grid-row-end:6;
+	border:1px solid blue;
+	
+}
