@@ -1,5 +1,7 @@
 /*  your css code here. If applicable */
-
+*{
+	box-sizing:border-box;
+}
 #grid{
 	display: grid;
 	grid-template-columns: repeat(4,242.5px);
@@ -16,6 +18,9 @@ div{
 	grid-row-start:1;
 	grid-row-end:2;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
 	
 	
 }
@@ -25,6 +30,10 @@ div{
 	grid-row-start:2;
 	grid-row-end:6;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 	
 }
 .three{
@@ -33,6 +42,10 @@ div{
 	grid-row-start:2;
 	grid-row-end:3;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 }
 .four{
 	grid-column-start:3;
@@ -40,6 +53,9 @@ div{
 	grid-row-start:2;
 	grid-row-end:3;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
 	
 }
 .five{
@@ -48,6 +64,10 @@ div{
 	grid-row-start:3;
 	grid-row-end:4;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 
 }
 .six{
@@ -56,6 +76,10 @@ div{
 	grid-row-start:3;
 	grid-row-end:4;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 	
 }
 .seven{
@@ -64,6 +88,10 @@ div{
 	grid-row-start:4;
 	grid-row-end:5;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 	
 }
 .eight{
@@ -71,7 +99,10 @@ div{
 	grid-column-end:4;
 	grid-row-start:4;
 	grid-row-end:5;
-	border:1px solid blue;
+	border:1px solid blue;color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 
 }
 .nine{
@@ -79,7 +110,10 @@ div{
 	grid-column-end:5;
 	grid-row-start:4;
 	grid-row-end:5;
-	border:1px solid blue;
+	border:1px solid blue;color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 
 }
 .ten{
@@ -88,5 +122,9 @@ div{
 	grid-row-start:5;
 	grid-row-end:6;
 	border:1px solid blue;
+	color:white;
+	font-size:35px;
+	padding-left:2px;
+	
 	
 }
